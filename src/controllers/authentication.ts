@@ -1,7 +1,7 @@
 import express from "express";
 
-import { getUserByEmail, createUser } from "db/users";
-import { random, authentication } from "helpers";
+import { getUserByEmail, createUser } from "../db/users";
+import { random, authentication } from "../helpers";
 
 export const login = async (req: express.Request, res: express.Response) => {
     try {
@@ -38,7 +38,7 @@ export const login = async (req: express.Request, res: express.Response) => {
 
 }
 
-export const register = async (req: express.Request, res: Express.Response) => {
+export const register = async (req: express.Request, res: express.Response) => {
     try {
         const { email, password, username } = req.body;
 
