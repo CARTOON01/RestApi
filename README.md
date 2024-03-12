@@ -5,27 +5,19 @@
 
 ## Description
 
-A brief description of your project and what it does.
-
-## Features
-
-- Feature 1: Description of feature 1.
-- Feature 2: Description of feature 2.
-- ...
+Rest api for login and registration
 
 ## Installation
 
 1. Clone the repository: `git clone https://github.com/cartoon01/RESTAPI.git`
 2. Install dependencies: `npm install`
+3. Testing: Use Postman
 
 ## Usage
 
 1. Start the server: `npm start`
 2. Access the API at: `http://localhost:8080`
 
-## API Documentation
-
-Provide a link to the API documentation or describe how to access it.
 
 ## Contributing
 
